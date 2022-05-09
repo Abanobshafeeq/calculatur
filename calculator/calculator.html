@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>calculator</title>
+    <link rel="stylesheet" href="style sheet.css">
+    <script src="js.js "></script>
+</head>
+
+<body>
+    <center>
+       
+            <h3>calculator</h3>
+            <table >
+                <tr>
+                    <td colspan="4" id="result">
+                        <div id="result">---</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('0')">0</button></td>
+                    <td><button onclick="gettext('1')">1</button></td>
+                    <td><button onclick="gettext('2')">2</button></td>
+                    <td><button onclick="gettext('+')" style="background-color:orange ;color: black;">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('3')">3</button></td>
+                    <td><button onclick="gettext('4')">4</button></td>
+                    <td><button onclick="gettext('5')">5</button></td>
+                    <td><button onclick="gettext('-')" style="background-color: orange; color: black;">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('6')">6</button></td>
+                    <td><button onclick="gettext('7')">7</button></td>
+                    <td><button onclick="gettext('8')">8</button></td>
+                    <td><button onclick="gettext('*')" style="background-color: orange; color: black;">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('9')">9</button></td>
+                    <td><button onclick="erase()"  style="background-color: rgb(9, 229, 249); color: black;">c</button></td>
+                    <td><button onclick="solve()"  style="background-color: rgb(9, 249, 125); color: black;">=</button></td>
+                    <td><button onclick="gettext('*')" style="background-color: orange; color: black;" >/</button></td>
+                </tr>
+            </table>
+       
+    </center>
+
+</body>
+
+</html>
